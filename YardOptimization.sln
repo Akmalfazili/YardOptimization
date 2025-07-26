@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "yardoptimization.client", "yardoptimization.client\yardoptimization.client.esproj", "{8A62DD87-329B-8E56-25A1-07E1BD6703D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YardOptimization.Server", "YardOptimization.Server\YardOptimization.Server.csproj", "{31DA9E1F-3032-4F7A-ADC7-406822A9608C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A62DD87-329B-8E56-25A1-07E1BD6703D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A62DD87-329B-8E56-25A1-07E1BD6703D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A62DD87-329B-8E56-25A1-07E1BD6703D2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8A62DD87-329B-8E56-25A1-07E1BD6703D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A62DD87-329B-8E56-25A1-07E1BD6703D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A62DD87-329B-8E56-25A1-07E1BD6703D2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{31DA9E1F-3032-4F7A-ADC7-406822A9608C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DA9E1F-3032-4F7A-ADC7-406822A9608C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DA9E1F-3032-4F7A-ADC7-406822A9608C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DA9E1F-3032-4F7A-ADC7-406822A9608C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFE3F357-F364-4B7F-856D-4611EECC9983}
+	EndGlobalSection
+EndGlobal

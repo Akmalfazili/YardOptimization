@@ -1,0 +1,6 @@
+@YardOptimization.Server_HostAddress = http://localhost:5149
+
+GET {{YardOptimization.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
