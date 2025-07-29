@@ -7,19 +7,23 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { AppComponent } from './app.component';
-
+import { ReactiveFormsModule } from '@angular/forms';
+import { AngularMaterialModule } from './angular-material.module';
 import { HomeComponent } from './home/home.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
+import { UploadComponent } from './upload/upload.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavMenuComponent
+    NavMenuComponent,
+    UploadComponent
   ],
   imports: [
     BrowserModule, HttpClientModule, BrowserAnimationsModule,
-    AppRoutingModule, MatButtonModule, MatIconModule, MatToolbarModule
+    AppRoutingModule, MatButtonModule, MatIconModule, MatToolbarModule,
+    ReactiveFormsModule, AngularMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
